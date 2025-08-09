@@ -1,5 +1,7 @@
 setwd("~/GitHub/ukb-limingui")
 
+df <- read.table("D:/Synology/Drive/data/df.txt")
+
 df <- data.frame(id = 1:5, value = c(10, 20, 30, 40, 50))
 
 
